@@ -9,9 +9,9 @@ public class Main {
         // write your code here
         System.out.println("Labas, iveskite skaiciu: ");
         Scanner sc = new Scanner(System.in);
-        int ivestasSkaicius = sc.nextInt();
+        int a = sc.nextInt();
 
-        int rezultatas = (ivestasSkaicius * ivestasSkaicius);
+        int rezultatas = (a * a);
         System.out.println("Skaiciaus kvadratas: " + rezultatas);
     }
 
